@@ -6,7 +6,7 @@ st.set_page_config(page_title="🐔 Poultry Symptom Checker", page_icon="🐔", 
 st.title("🐔 Poultry Symptom Checker")
 st.caption("AI-powered diagnosis from your n8n workflow.")
 
-WEBHOOK_URL = "https://YOURNAME.app.n8n.cloud/webhook/poultry-dx"  # <-- put your Production URL here
+WEBHOOK_URL = ""https://pin261987.app.n8n.cloud/webhook/poultry-dx""  # <-- put your Production URL here
 
 def safe_parse(resp: requests.Response):
     """Return a dict. Try JSON; if text looks like JSON inside, extract; else fallback."""
